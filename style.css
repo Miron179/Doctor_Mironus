@@ -1,0 +1,92 @@
+.title {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 98px;
+    Margin: -30 0 0 140px;
+
+    color: #FFFFFF;
+}
+
+body {
+    background: linear-gradient(252.44deg,
+            #415F75 2.64%, #406682 50%, #223C4F 100%);
+}
+
+.brain {
+    padding: 0 0 0 0 px;
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    left: 60px;
+    top: 0px;
+}
+
+p {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 74px;
+    margin: 0 0 0 1100px;
+
+    color: #000000;
+}
+
+h2 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 84px;
+    margin: 200 0 0 1100px;
+
+    color: #ffffff;
+}
+
+span {
+    color: #000000;
+}
+
+.images {
+    padding: 0 0 0 0 px;
+    position: absolute;
+    width: 1000px;
+    height: 863px;
+    left: 0px;
+    top: 100px;
+
+}
+
+.btn-group button {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 40;
+    background-color: #B03838;
+    border: 1px solid rgb(128, 0, 0);
+    color: white;
+    padding: 40px 100px;
+    cursor: pointer;
+    float: left;
+    margin: 20 0 0 1300;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+}
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:hover {
+    background-color: #d66c6c;
+}
+
+#bg{
+ width: 1922px;
+ height: 75px;
+ background:linear-gradient(252.44deg,
+ #2b2c81 2.64%, #2b2c81 50%, #2b2c81 100%);
+ margin:-235 0 0 -10px;
+}
